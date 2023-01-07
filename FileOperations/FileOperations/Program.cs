@@ -9,6 +9,7 @@ namespace FileOperations
             string filePath = @"E:\File Operations\File_Operations\FileOperations\FileOperations\Files\Example.txt";
             Operations.FileExists(filePath);
             Operations.ReadLines(filePath);
+            Operations.ReadText(filePath);
         }
     }
 }
