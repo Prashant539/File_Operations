@@ -6,8 +6,9 @@ namespace FileOperations
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to File Operations!");
-            string filePath = @"E:\Self Practice Problem\FileOperations\FileOperations\Files\Example.txt";
+            string filePath = @"E:\File Operations\File_Operations\FileOperations\FileOperations\Files\Example.txt";
             Operations.FileExists(filePath);
+            Operations.ReadLines(filePath);
         }
     }
 }
