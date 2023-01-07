@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FileOperations
+{
+    public class Operations
+    {
+        public static void FileExists(string filepath)
+        {
+            if (File.Exists(filepath))
+                Console.WriteLine("File Exists");
+            else
+                Console.WriteLine("File Not Exists");
+        }
+    }
+}
