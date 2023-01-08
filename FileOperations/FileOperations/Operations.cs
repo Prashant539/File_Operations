@@ -48,7 +48,17 @@ namespace FileOperations
                 Console.WriteLine("File Not Exists");
 
         }
-        
+        public static void FileDelete(string newfilepath)
+        {
+            if (File.Exists(newfilepath))
+            {
+                File.Delete(newfilepath);
+
+            }
+            else
+                Console.WriteLine("File Not Exists");
+        }
+
     }
 }
 

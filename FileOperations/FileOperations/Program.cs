@@ -13,6 +13,8 @@ namespace FileOperations
             Operations.ReadLines(filepath);
             Operations.ReadText(filepath);
             Operations.FileCopy(filepath);
+            Operations.FileDelete(filepath);
+
             
 
 
