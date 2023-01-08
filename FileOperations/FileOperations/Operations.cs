@@ -36,17 +36,19 @@ namespace FileOperations
             else
                 Console.WriteLine("File Not Exists");
         }
-        public static void FileCopy(string filepath, string newfilepath)
+        public static void FileCopy(string filepath)
         {
+            string newfilepath = @"E:\File Operations\File_Operations\FileOperations\FileOperations\Files\CopyFile.txt";
             if (File.Exists(filepath))
             {
-                File.Copy(filepath, newfilepath);
+                File.Copy(filepath, newfilepath, true);
 
             }
             else
                 Console.WriteLine("File Not Exists");
 
         }
+        
     }
 }
 

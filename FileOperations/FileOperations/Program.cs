@@ -7,11 +7,13 @@ namespace FileOperations
         {
             Console.WriteLine("Welcome to File Operations!");
             string filepath = @"E:\File Operations\File_Operations\FileOperations\FileOperations\Files\Example.txt";
-            string newfilepath = @"E:\File Operations\File_Operations\FileOperations\FileOperations\Files\TextFile1.txt";
+            string newfilepath = @"E:\File Operations\File_Operations\FileOperations\FileOperations\Files\CopyFile.txt";
+            
             Operations.FileExists(filepath);
             Operations.ReadLines(filepath);
             Operations.ReadText(filepath);
-            Operations.FileCopy(filepath, newfilepath);
+            Operations.FileCopy(filepath);
+            
 
 
         }
