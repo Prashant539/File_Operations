@@ -14,6 +14,7 @@ namespace FileOperations
             Operations.ReadText(filepath);
             Operations.FileCopy(filepath);
             Operations.FileDelete(filepath);
+            Operations.FileStreamReader(filepath);
 
             
 
